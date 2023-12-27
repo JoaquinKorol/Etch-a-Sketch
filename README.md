@@ -1,5 +1,7 @@
 # Etch-a-Sketch Project
 
+[Demo](https://joaquinkorol.github.io/Rock-Paper-Scissors/)
+
 Welcome to the Etch-a-Sketch project! The Etch-a-Sketch project is a web application crafted with HTML, CSS, and JavaScript. It's designed as a part of The Odin Project, offering an engaging way to draw and create on a digital canvas.
 
 ## Features
