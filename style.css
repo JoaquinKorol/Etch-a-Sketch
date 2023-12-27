@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #55ACEE ;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #333333;
+    font-size: 36px;
+    text-align: center;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.grid {
+    background-color: #F5F5DC;
+}
+
+.grid:hover {
+    background-color: red;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+    height: 100%;
+}
+button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid black;
+}
+
+#restart, 
+#clear {
+    color: ##000000;
+    background-color: ##ffffff;
+}
+
+#rainbow {
+    background-image: linear-gradient(90deg, rgb(255, 30,143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255,15, 15));
+    background-size: 300%;
+    z-index: 1;
+    animation: rainbowAnimation 2s linear infinite alternate;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
